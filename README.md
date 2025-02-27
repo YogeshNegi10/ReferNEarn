@@ -1,4 +1,4 @@
-Go Check this out [refer-n-earn.vercel.app](https://refer-n-earn-jmv5la1zt-leoyogeshs-projects.vercel.app/)
+Go Check this out [[refer-n-earn.vercel.app](https://refer-n-earn-jmv5la1zt-leoyogeshs-projects.vercel.app/)](https://refer-n-earn.vercel.app/)
 
 The Refer & Earn API is a RESTful backend service built with Express.js and Prisma ORM, designed to handle referral form submissions. It allows users to refer their friends by submitting details via a web form, which are then stored in a MySQL database. The API ensures proper data validation, error handling, and secure storage of referral information.
 
