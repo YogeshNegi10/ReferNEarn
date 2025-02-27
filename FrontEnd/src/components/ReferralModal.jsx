@@ -33,7 +33,7 @@ const ReferralModal = ({ onClose }) => {
     try {
       // Sending referral data to the backend
     
-      const response = await axios.post("http://localhost:5000/referrals", {
+      const response = await axios.post("https://refernearn.onrender.com/referrals", {
 
         
     
