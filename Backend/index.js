@@ -89,7 +89,7 @@ app.get("/referrals", async (req, res) => {
 });
 
 // Start server
-const PORT = process.env.PORT || 'https://refernearn.onrender.com';
+const PORT = process.env.PORT || '';
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
 
 
