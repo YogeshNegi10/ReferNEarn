@@ -4,6 +4,7 @@ const { PrismaClient } = require("@prisma/client");
 const bodyParser = require("body-parser");
 const cors = require("cors");
 const nodemailer = require("nodemailer");
+require("dotenv").config()
 
 const app = express();
 const prisma = new PrismaClient();
