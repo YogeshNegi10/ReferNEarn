@@ -70,6 +70,14 @@ app.post("/referrals", async (req, res) => {
 });
 
 
+app.get("/", async (req, res) => {
+  try {
+       res.send('Hi ! there Your Server is Running' )
+  } catch (error) {
+    res.status(500).json({ error: "Could not fetch referrals" });
+  }
+});
+
 // Get all referrals
 app.get("/referrals", async (req, res) => {
   try {
